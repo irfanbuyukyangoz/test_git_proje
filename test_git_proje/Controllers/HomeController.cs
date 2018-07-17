@@ -19,6 +19,7 @@ namespace test_git_proje.Controllers
         {
             ViewData["Message"] = "Your application description page.";
 
+
             return View();
         }
 

@@ -10,8 +10,11 @@ namespace test_git_proje.Controllers
 {
     public class HomeController : Controller
     {
+
         public IActionResult Index()
         {
+            //paket1
+            var a = 234882374;
             return View();
         }
 

@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "MvcMerhaba";
+}
+
+<h2>MvcMerhaba</h2>
+@for (int i = 1; i <= 10; i++)
+{
+    <div class="col-md-3"> @i . Öğrenci</div>
+    <div class="col-md-8">
+        @Html.TextBox("StudentName" + i, null, new { @class = "form-control" })
+    </div>
+
+}
+<div class="clearfix"></div>

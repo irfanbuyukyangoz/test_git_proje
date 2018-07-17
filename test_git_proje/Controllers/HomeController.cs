@@ -15,6 +15,7 @@ namespace test_git_proje.Controllers
         {
             //paket1
             var a = 234882374;
+            string b = "deneme";
             return View();
         }
 
